@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease-in;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+}
+#sec-1{
+    background-image: url(assets/background/h_img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 97vh;
+}
+#del{
+    padding-top: 20vh;
+    padding-bottom: 20px;
+}
+#mouse{
+    padding-top: 130px;
+}
+#sec-2{
+    margin: 50px auto;
+}
