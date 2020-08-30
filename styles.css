@@ -27,3 +27,32 @@ body{
 #sec-2{
     margin: 50px auto;
 }
+#sec-3{
+    background-image: url(assets/background/s_image.jpg);
+    color: #fff;
+    padding: 100px 10%;
+}
+#sec-6 h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.p1, .p2, .p3{
+    display: none;
+}
+#sec-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70vw;
+    margin: 30px auto;
+    padding: 4.7px;
+}
+.A, .B, .C, .D, .E, .F, .G, .H{
+    width: 153px;
+    height: 153px;
+    margin: 5px;
+}
+.A{
+    background-image: url(assets/portfolio/work1.jpg);
+    background-size: cover;
+}
