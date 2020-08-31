@@ -94,6 +94,10 @@ body{
     margin-top: 20px;
     opacity: 0;
 }
+.text:hover{
+    visibility: visible;
+    opacity: 1;
+}
 .text>p {
     padding-top: 67px;
 }
