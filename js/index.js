@@ -43,14 +43,18 @@ $(document).ready(function(){
   })
   });
   $(document).ready(function(){
-      $('#submission').submit(function(event){
-          var display1 = $('input:first').val();
-          var display2 = $('input#mail').val();
-          if(display1 && display2 != ''){
-            alert ('Thank you ' + display1 + ' your subscription is well received');
-          }else {
-              alert ('Invalid input');
-          }
-          event.preventDefault();
+    $("form#submission").on('submit',function(event){
+        event.preventDefault();
+        let name = $("input:first").val();
+        let email = $("input#mail").val();
+        let message = $("textarea#message").val();
+
+        if ($("input:first").val() && $("input#mail").val()){
+            alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly...cheers");
+        }
+        else {
+            alert("Please provide your correct name and email!");
+        }
+        event.preventDefault();
       })
   });
