@@ -24,6 +24,7 @@ body{
 }
 #mouse{
     padding-top: 130px;
+    animation: bounce 2s infinite;
 }
 #sec-2{
     margin: 50px auto;
